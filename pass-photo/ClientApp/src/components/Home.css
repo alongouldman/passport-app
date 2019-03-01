@@ -1,0 +1,24 @@
+
+.front-page {
+    position: relative;
+    background-color: #343a40;
+    background: linear-gradient(
+            rgba(237, 231, 231, 0.35),
+            rgba(237, 231, 231, 0.35)
+    ),
+    url('https://i.pinimg.com/originals/eb/78/77/eb787782a01282a0423665a32f03098b.jpg') no-repeat center center;
+    background-size: cover;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+@media (max-width: 768px) {
+    .front-page {
+        padding-top: 5rem;
+    }
+}
+
+i:hover {
+    transform: scale(1.1);
+}
+
